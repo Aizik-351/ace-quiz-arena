@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ACE Quiz Arena</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <nav>
+    <button onclick="showHome()">Home</button>
+    <button onclick="showDashboard()">Dashboard</button>
+    <button onclick="showAdmin()">Admin</button>
+    <button id="authBtn" onclick="showAuth()">Sign In</button>
+  </nav>
+</header>
+
+<main id="app"></main>
+<div id="pageScrollControls" class="page-scroll-controls" aria-label="Page navigation">
+  <button type="button" onclick="scrollPageTop()" title="Go to top" aria-label="Go to top">↑</button>
+  <button type="button" onclick="scrollPageBottom()" title="Go to bottom" aria-label="Go to bottom">↓</button>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-brand">
+    <img src="assets/ace-academy-logo.png" alt="ACE Academy — where knowledge meets excellence">
+    <div><strong>ACE Academy</strong><span>...where knowledge meets excellence</span></div>
+  </div>
+  <p>© 2026 ACE Academy · ACE Quiz Arena. Learn. Practice. Challenge Yourself.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

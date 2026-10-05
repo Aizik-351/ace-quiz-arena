@@ -1,0 +1,12 @@
+{
+  "name": "ace-quiz-arena",
+  "version": "2.3.0",
+  "private": true,
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "@neondatabase/serverless": "latest"
+  },
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
